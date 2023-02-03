@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activityLogin">
+    tools:context="activityLogin">
 
     <ImageView
         android:id="@+id/imageView"
@@ -64,7 +64,6 @@
         android:layout_height="45dp"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
-        android:background="@drawable/custombuttonmain"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,7 +76,6 @@
         android:layout_height="45dp"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
-        android:background="@drawable/custombuttonmain"
         android:ems="10"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
