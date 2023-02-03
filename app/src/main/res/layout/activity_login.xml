@@ -14,7 +14,7 @@
         android:layout_marginTop="84dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/userApp" />
+        app:srcCompat="@drawable/userapp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonSignIn"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="388dp"
-        android:text="Name: "
+        android:text="E-mail: "
         android:textColor="@color/black"
         android:textSize="18dp"
         android:textStyle="bold"
@@ -61,10 +61,11 @@
     <EditText
         android:id="@+id/editTextRegisterPassword"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
         android:ems="10"
+        android:hint="**********"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,10 +74,11 @@
     <EditText
         android:id="@+id/editTextRegisterName"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
         android:ems="10"
+        android:hint="E-mail"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
